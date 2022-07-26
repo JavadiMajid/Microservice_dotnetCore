@@ -28,7 +28,6 @@ services:
 
   basket.api:
     container_name: basket.api
-
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings:ConnectionString=localhost:6379"
